@@ -1,4 +1,4 @@
-# 调整apache默认日志格式加入耗时统计
+# apache默认日志加入耗时统计
 找到apache的log所在位置，我这里是/etc/httpd/conf/httpd.conf
 默认记录的访问日志是没有耗时统计的，比如下面这样
 ```
