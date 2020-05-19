@@ -8,7 +8,7 @@
 
 * [Shell](#shell)
 * [Apache](#apache)
-
+* [Python](#python)
 ---
 
 ### Shell
@@ -19,3 +19,7 @@
 
 - [apache日志记录POST的详细数据](apache/apache日志记录POST的详细数据.md)
 - [apache默认日志格式加入耗时统计](apache/apache默认日志格式加入耗时统计.md)
+
+### Python
+
+- [将python源代码编译成elf文件.md](python/将python源代码编译成elf文件.md)
