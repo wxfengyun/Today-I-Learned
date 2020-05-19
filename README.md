@@ -22,4 +22,4 @@
 
 ### Python
 
-- [将python源代码编译成elf文件.md](python/将python源代码编译成elf文件.md)
+- [将python源代码编译成elf文件](python/将python源代码编译成elf文件.md)
