@@ -7,7 +7,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-当前一共 _6 条记录 持续更新ing..._
+当前一共<font color=red>6</font>条记录 持续更新中...
 
 ---
 ### 目录 Categories
