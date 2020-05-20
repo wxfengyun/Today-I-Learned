@@ -22,7 +22,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 '''
 
-FOOTER = '''## 使用方法 Usage
+FOOTER = '''## 自动生成README的方法 Usage
 在根目录下执行 `python createReadme.py` 可以自动根据目录结构生成README.md  
 
 After creating a new entry, run `./createReadme.py > README.md` to regenerate
@@ -96,11 +96,11 @@ def print_file(category_names, count, categories):
     with open('README.md', 'w') as file_:
         file_.write(HEADER)
         file_.write('\n')
-        file_.write('_{0} TILs and counting..._'.format(count))
+        file_.write('当前一共 _{0} 条记录 持续更新ing..._'.format(count))
         file_.write('\n')
         file_.write('''
 ---
-### Categories
+### 目录 Categories
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
