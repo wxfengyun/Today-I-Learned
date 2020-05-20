@@ -7,10 +7,15 @@ ls -Sl
 ```bash
 ls -Slr
 ```
--h, 表示 "–human-readable", 单位是k或者M, 比较容易看清楚结果。
+`-h`表示 "--human-readable", 单位是k或者M, 比较容易看清楚结果。
 
 ls按时间排序
+
+从新到旧
 ```bash
-ls -lt 从新到旧
-ls -lrt 从旧到新
+ls -lt 
+```
+从旧到新
+```bash
+ls -lrt 
 ```
