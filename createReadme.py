@@ -96,7 +96,7 @@ def print_file(category_names, count, categories):
     with open('README.md', 'w') as file_:
         file_.write(HEADER)
         file_.write('\n')
-        file_.write('当前一共 _{0} 条记录 持续更新ing..._'.format(count))
+        file_.write('当前一共<font color=red>{0}</font>条记录 持续更新中...'.format(count))
         file_.write('\n')
         file_.write('''
 ---
