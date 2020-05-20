@@ -7,10 +7,10 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-_5 TILs and counting..._
+当前一共 _6 条记录 持续更新ing..._
 
 ---
-### Categories
+### 目录 Categories
 * [Apache](#apache)
 * [Python](#python)
 * [Shell](#shell)
@@ -23,6 +23,7 @@ _5 TILs and counting..._
 
 ### Python
 
+- [python时间日期的转化和加减计算](python/python时间日期的转化和加减计算.md)
 - [将python源代码编译成elf文件](python/将python源代码编译成elf文件.md)
 
 ### Shell
@@ -30,7 +31,7 @@ _5 TILs and counting..._
 - [grep搜索多层目录下指定后缀的文件内容](shell/grep搜索多层目录下指定后缀的文件内容.md)
 - [ls按文件大小或者时间排序](shell/ls按文件大小或者时间排序.md)
 
-## 使用方法 Usage
+## 自动生成README的方法 Usage
 在根目录下执行 `python createReadme.py` 可以自动根据目录结构生成README.md  
 
 After creating a new entry, run `./createReadme.py > README.md` to regenerate
