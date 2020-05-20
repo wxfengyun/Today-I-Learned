@@ -7,7 +7,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-_4 TILs and counting..._
+_5 TILs and counting..._
 
 ---
 ### Categories
@@ -28,6 +28,7 @@ _4 TILs and counting..._
 ### Shell
 
 - [grep搜索多层目录下指定后缀的文件内容](shell/grep搜索多层目录下指定后缀的文件内容.md)
+- [ls按文件大小或者时间排序](shell/ls按文件大小或者时间排序.md)
 
 ## 使用方法 Usage
 在根目录下执行 `python createReadme.py` 可以自动根据目录结构生成README.md  
