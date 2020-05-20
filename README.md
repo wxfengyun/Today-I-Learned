@@ -18,8 +18,8 @@ _4 TILs and counting..._
 ---
 ### Apache
 
-- [apache日志记录POST的详细数据](apache\apache日志记录POST的详细数据.md)
-- [apache默认日志加入耗时统计](apache\apache默认日志格式加入耗时统计.md)
+- [apache日志记录POST的详细数据](apache/apache日志记录POST的详细数据.md)
+- [apache默认日志加入耗时统计](apache/apache默认日志格式加入耗时统计.md)
 
 ### Python
 
@@ -27,7 +27,7 @@ _4 TILs and counting..._
 
 ### Shell
 
-- [grep搜索多层目录下指定后缀的文件内容](shell\grep搜索多层目录下指定后缀的文件内容.md)
+- [grep搜索多层目录下指定后缀的文件内容](shell/grep搜索多层目录下指定后缀的文件内容.md)
 
 ## 使用方法 Usage
 在根目录下执行 `python createReadme.py` 可以自动根据目录结构生成README.md  

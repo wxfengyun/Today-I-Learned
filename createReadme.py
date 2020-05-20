@@ -74,6 +74,7 @@ def get_tils(category):
     for filename in til_files:
         filename = filename.decode(encoding='gbk')
         fullname = os.path.join(category, filename)
+        fullname = fullname.replace('\\', '/')
         if (os.path.isfile(fullname)) and fullname.endswith('.md'):
             title = get_title(fullname)
             titles.append((title, fullname))
