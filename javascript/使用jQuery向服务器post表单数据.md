@@ -5,7 +5,7 @@
 可以通过`push`的方式将其他自定义的数据连通表单一起post给服务器。
 
 ```javascript
-	var form_data = $('#my-form').serializeArray();
+    var form_data = $('#my-form').serializeArray();
     form_data.push({name: 'other-value', value: "xxxx"});
 
     $.post("/test/api", form_data, function(data){
