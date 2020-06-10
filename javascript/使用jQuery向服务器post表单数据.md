@@ -26,12 +26,11 @@
 
 ```javascript
 	$.ajax({
-        url: "/test/api",
-        method: "POST",
-        async: true,   // 禁止异步查询
-        data: {"password": password, "username": username},
-        success: function (response){
-
-        }
-    });
+        	url: "/test/api",
+       		method: "POST",
+        	async: true,   // 禁止异步查询
+        	data: {"password": password, "username": username},
+        	success: function (response){
+        	}
+    	});
 ```
