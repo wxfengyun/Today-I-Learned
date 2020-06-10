@@ -7,11 +7,12 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-当前一共<font color=red>7</font>条记录 持续更新中...
+当前一共<font color=red>8</font>条记录 持续更新中...
 
 ---
 ### 目录 Categories
 * [Apache](#apache)
+* [Css](#css)
 * [Mysql](#mysql)
 * [Python](#python)
 * [Shell](#shell)
@@ -21,6 +22,10 @@ warrant a full blog post.
 
 - [apache日志记录POST的详细数据](apache/apache日志记录POST的详细数据.md)
 - [apache默认日志加入耗时统计](apache/apache默认日志格式加入耗时统计.md)
+
+### Css
+
+- [创建一个带输入框的下拉列表控件](css/创建一个带输入框的下拉列表控件.md)
 
 ### Mysql
 
