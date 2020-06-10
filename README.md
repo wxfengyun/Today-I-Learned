@@ -7,12 +7,13 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-当前一共<font color=red>8</font>条记录 持续更新中...
+当前一共<font color=red>9</font>条记录 持续更新中...
 
 ---
 ### 目录 Categories
 * [Apache](#apache)
 * [Css](#css)
+* [Javascript](#javascript)
 * [Mysql](#mysql)
 * [Python](#python)
 * [Shell](#shell)
@@ -26,6 +27,10 @@ warrant a full blog post.
 ### Css
 
 - [创建一个带输入框的下拉列表控件](css/创建一个带输入框的下拉列表控件.md)
+
+### Javascript
+
+- [使用jQuery向服务器post表单数据](javascript/使用jQuery向服务器post表单数据.md)
 
 ### Mysql
 
