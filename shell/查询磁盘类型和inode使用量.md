@@ -13,14 +13,12 @@ Filesystem              Type     Inodes IUsed IFree IUse% Mounted on
 /dev/mapper/centos-root xfs         94M  250K   93M    1% /
 devtmpfs                devtmpfs   7.9M   507  7.9M    1% /dev
 tmpfs                   tmpfs      7.9M     1  7.9M    1% /dev/shm
-
 ```
 
 如果需要查看具体哪个目录使用的inode资源最大，可以执行
 
 ```
 find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
-
 ```
 
 这个命令输出量比较大，执行完，只看最后几行就行
