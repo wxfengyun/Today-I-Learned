@@ -9,6 +9,7 @@
 '''
 import os
 import sys
+import platform
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -71,8 +72,14 @@ def get_tils(category):
     ''' For a given category, get the list of TIL titles. '''
     til_files = [x for x in os.listdir(category)]
     titles = []
+
+    system_type = platform.system()
+
     for filename in til_files:
-        filename = filename.decode(encoding='gbk')
+
+        if system_type == "Windows":
+            filename = filename.decode(encoding='gbk')
+            
         fullname = os.path.join(category, filename)
         fullname = fullname.replace('\\', '/')
         if (os.path.isfile(fullname)) and fullname.endswith('.md'):
