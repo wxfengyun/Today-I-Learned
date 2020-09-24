@@ -9,7 +9,7 @@
 
 于是又找了另外一个示例代码[Python中使用SAX解析XML](https://blog.csdn.net/xiaohao0724/article/details/81317757)，其中的用法二可供参考
 
-```
+```python
 from xml.parsers.expat import ParserCreate
 
 
