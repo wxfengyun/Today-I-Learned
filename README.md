@@ -7,7 +7,7 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-当前一共<font color=red>11</font>条记录 持续更新中...
+当前一共<font color=red>12</font>条记录 持续更新中...
 
 ---
 ### 目录 Categories
@@ -40,12 +40,13 @@ warrant a full blog post.
 ### Python
 
 - [python时间日期的转化和加减计算](python/python时间日期的转化和加减计算.md)
+- [python解析xml文件](python/python解析xml文件.md)
 - [将python源代码编译成elf文件](python/将python源代码编译成elf文件.md)
 
 ### Shell
 
 - [grep搜索多层目录下指定后缀的文件内容](shell/grep搜索多层目录下指定后缀的文件内容.md)
-- [ls按文件大小或者时间排序](shell/ls按文件大小或者时间排序.md)
+- [python解析xml文件](shell/ls按文件大小或者时间排序.md)
 - [查询磁盘类型和inode使用量](shell/查询磁盘类型和inode使用量.md)
 
 ### Tcpdump
