@@ -7,13 +7,15 @@ A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
-当前一共<font color=red>13</font>条记录 持续更新中...
+当前一共<font color=red>15</font>条记录 持续更新中...
 
 ---
 ### 目录 Categories
 * [Apache](#apache)
 * [Css](#css)
+* [Elasticsearch](#elasticsearch)
 * [Javascript](#javascript)
+* [Linux](#linux)
 * [Mysql](#mysql)
 * [Python](#python)
 * [Shell](#shell)
@@ -29,9 +31,17 @@ warrant a full blog post.
 
 - [创建一个带输入框的下拉列表控件](css/创建一个带输入框的下拉列表控件.md)
 
+### Elasticsearch
+
+- [修复es的red状态](elasticsearch/修复es的red状态.md)
+
 ### Javascript
 
 - [使用jQuery向服务器post表单数据](javascript/使用jQuery向服务器post表单数据.md)
+
+### Linux
+
+- [linux硬盘挂载失败修复](linux/linux硬盘挂载失败修复.md)
 
 ### Mysql
 
